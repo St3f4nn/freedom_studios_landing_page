@@ -1,0 +1,41 @@
+:root {
+  --primary: #e82e2c;
+
+  --dark-primary: #191c1f;
+  --dark-secondary: #1f2327;
+}
+
+/* Core styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  background: var(--dark-primary);
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+/* Utilities */
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
