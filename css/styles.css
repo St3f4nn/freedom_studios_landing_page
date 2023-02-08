@@ -219,8 +219,13 @@ img {
 
 #features-2 .container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1.21fr 1fr;
   grid-gap: 7.9375rem;
+}
+
+#features-2 #features-2-showcase img {
+  height: 100%;
+  object-fit: cover;
 }
 
 #features-2 #features-2-content {
