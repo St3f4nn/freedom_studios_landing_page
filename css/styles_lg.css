@@ -22,3 +22,9 @@
 #about #about-content {
   margin-top: 1rem;
 }
+
+/* CTA component */
+
+#cta .container {
+  padding: 0 6rem;
+}
