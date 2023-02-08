@@ -1,17 +1,17 @@
-/* Hero component */
+/* Hero */
 
 #hero .container {
   padding-right: 12rem;
 }
 
-/* Features component */
+/* Features */
 
 #features .container {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2.5rem;
 }
 
-/* Media features component */
+/* Media features */
 
 #features-2 .container,
 #about .container {
@@ -23,7 +23,7 @@
   margin-top: 1rem;
 }
 
-/* CTA component */
+/* CTA */
 
 #cta .container {
   padding: 0 6rem;

@@ -124,7 +124,7 @@ img {
   padding-right: 3.375rem;
 }
 
-/* Header component */
+/* Header */
 
 #main-header {
   padding: 2rem 0;
@@ -141,7 +141,7 @@ img {
   justify-content: space-between;
 }
 
-/* Hero component */
+/* Hero */
 
 #hero {
   position: relative;
@@ -186,7 +186,7 @@ img {
   font-size: 1.125rem;
 }
 
-/* Features component */
+/* Features */
 
 #features {
   padding: 3.75rem 0;
@@ -210,7 +210,7 @@ img {
   margin-top: 0.9375rem;
 }
 
-/* Media features component */
+/* Media features */
 
 #features-2 {
   background-color: var(--dark-secondary);
@@ -268,7 +268,7 @@ img {
   margin-top: 0.125rem;
 }
 
-/* About component */
+/* About */
 
 #about {
   padding: 7.5rem 0;
@@ -297,7 +297,7 @@ img {
   object-fit: cover;
 }
 
-/* CTA component */
+/* CTA */
 
 #cta {
   padding: 5rem 0;
@@ -313,4 +313,32 @@ img {
 
 #cta .container {
   padding: 0 12.625rem;
+}
+
+/* Footer */
+
+#main-footer {
+  padding: 2.5rem 0;
+}
+
+#main-footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#main-footer-social {
+  display: flex;
+  align-items: center;
+  gap: 0.9375rem;
+}
+
+.main-footer-social-link {
+  width: 30px;
+  height: 30px;
+  transition: all 0.3s ease;
+}
+
+.main-footer-social-link:hover {
+  transform: translateY(-3px);
 }

@@ -28,13 +28,13 @@
   line-height: normal;
 }
 
-/* Hero component */
+/* Hero */
 
 #hero {
   text-align: center;
 }
 
-/* Features component */
+/* Features */
 
 #features .container,
 #features-2 .container,
@@ -49,7 +49,7 @@
   justify-content: center;
 }
 
-/* About component */
+/* About */
 
 #about #about-showcase {
   grid-row: 1;
@@ -60,8 +60,17 @@
   margin-top: 0;
 }
 
-/* CTA component */
+/* CTA */
 
 #cta .container {
   padding: 0 1.25rem;
+}
+
+/* Footer */
+
+#main-footer .container {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
 }
