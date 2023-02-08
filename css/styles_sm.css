@@ -37,7 +37,8 @@
 /* Features component */
 
 #features .container,
-#features-2 .container {
+#features-2 .container,
+#about .container {
   grid-template-columns: 1fr;
   text-align: center;
   grid-gap: 3rem;
@@ -46,4 +47,15 @@
 .feature,
 .feature-2 {
   justify-content: center;
+}
+
+/* About component */
+
+#about #about-showcase {
+  grid-row: 1;
+}
+
+#about #about-content {
+  grid-row: 2;
+  margin-top: 0;
 }

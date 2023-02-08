@@ -220,6 +220,7 @@ img {
 #features-2 .container {
   display: grid;
   grid-template-columns: 1.21fr 1fr;
+  align-items: start;
   grid-gap: 7.9375rem;
 }
 
@@ -232,11 +233,13 @@ img {
   margin-top: 5.5625rem;
 }
 
-#features-2 .pre-heading {
+#features-2 .pre-heading,
+#about .pre-heading {
   font-size: 1rem;
 }
 
-#features-2 .section-heading {
+#features-2 .section-heading,
+#about .section-heading {
   margin-top: 0.3125rem;
 }
 
@@ -263,4 +266,33 @@ img {
 
 .feature-2-text {
   margin-top: 0.125rem;
+}
+
+/* About component */
+
+#about {
+  padding: 7.5rem 0;
+}
+
+#about .container {
+  display: grid;
+  grid-template-columns: 1fr 1.3315fr;
+  align-items: start;
+  grid-gap: 10.3125rem;
+}
+
+#about #about-content {
+  margin-top: 6.5625rem;
+}
+
+#about #about-paragraph {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.5625rem;
+  margin-top: 0.625rem;
+}
+
+#about #about-showcase img {
+  height: 100%;
+  object-fit: cover;
 }
