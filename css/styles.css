@@ -59,10 +59,8 @@ img {
   border: 1px solid var(--primary);
   background-color: var(--primary);
   padding: 1.1875rem;
+  position: relative;
   font-size: 1rem;
-  display: flex;
-  align-items: center;
-  width: max-content;
   margin-top: 1.875rem;
 }
 
@@ -83,10 +81,12 @@ img {
 }
 
 .chevron-right {
-  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
   width: 20px;
   height: 20px;
-  margin-left: 0.9375rem;
 }
 
 .pre-heading {
@@ -106,6 +106,10 @@ img {
   font-size: 1.5rem;
   line-height: 1.875rem;
   margin-top: 0.625rem;
+}
+
+.pr-54 {
+  padding-right: 3.375rem;
 }
 
 /* Header component */
@@ -170,6 +174,8 @@ img {
   font-size: 1.125rem;
 }
 
+/* Max-width: 1024px */
+
 @media (max-width: 1024px) {
   /* Hero component */
 
@@ -177,6 +183,8 @@ img {
     padding-right: 12rem;
   }
 }
+
+/* Max-width: 768px */
 
 @media (max-width: 768px) {
   /* Utilities */
@@ -195,12 +203,22 @@ img {
     font-size: 1.125rem;
   }
 
+  .chevron-right {
+    right: 16px;
+  }
+
+  .pr-54 {
+    padding-right: 3rem;
+  }
+
   /* Hero component */
 
   #hero .container {
     padding-right: 1.5rem;
   }
 }
+
+/* Max-width: 640px */
 
 @media (max-width: 640px) {
   /* Utilities */
