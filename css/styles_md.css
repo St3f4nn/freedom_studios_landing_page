@@ -1,0 +1,29 @@
+/* Utilities */
+
+.btn-primary {
+  padding: 1rem;
+}
+
+.lead-heading {
+  font-size: 3rem;
+  line-height: normal;
+}
+
+.lead-paragraph {
+  line-height: normal;
+  font-size: 1.125rem;
+}
+
+.chevron-right {
+  right: 16px;
+}
+
+.pr-54 {
+  padding-right: 3rem;
+}
+
+/* Hero component */
+
+#hero .container {
+  padding-right: 1.5rem;
+}

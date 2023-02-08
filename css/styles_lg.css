@@ -1,0 +1,22 @@
+/* Hero component */
+
+#hero .container {
+  padding-right: 12rem;
+}
+
+/* Features component */
+
+#features .container {
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2.5rem;
+}
+
+/* Media features component */
+
+#features-2 .container {
+  grid-gap: 2.5rem;
+}
+
+#features-2 #features-2-content {
+  margin-top: 1rem;
+}

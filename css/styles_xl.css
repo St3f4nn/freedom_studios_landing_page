@@ -1,0 +1,9 @@
+/* Media features component */
+
+#features-2 .container {
+  grid-gap: 5rem;
+}
+
+#features-2 #features-2-content {
+  margin-top: 3rem;
+}

@@ -210,105 +210,52 @@ img {
   margin-top: 0.9375rem;
 }
 
-/* Max-width: 1024px */
+/* Media features component */
 
-@media (max-width: 1024px) {
-  /* Hero component */
-
-  #hero .container {
-    padding-right: 12rem;
-  }
-
-  /* Features component */
-
-  #features .container {
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2.5rem;
-  }
+#features-2 {
+  background-color: var(--dark-secondary);
+  padding: 7.5rem 0;
 }
 
-/* Max-width: 768px */
-
-@media (max-width: 768px) {
-  /* Utilities */
-
-  .btn-primary {
-    padding: 1rem;
-  }
-
-  .lead-heading {
-    font-size: 3rem;
-    line-height: normal;
-  }
-
-  .lead-paragraph {
-    line-height: normal;
-    font-size: 1.125rem;
-  }
-
-  .chevron-right {
-    right: 16px;
-  }
-
-  .pr-54 {
-    padding-right: 3rem;
-  }
-
-  /* Hero component */
-
-  #hero .container {
-    padding-right: 1.5rem;
-  }
+#features-2 .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 7.9375rem;
 }
 
-/* Max-width: 640px */
+#features-2 #features-2-content {
+  margin-top: 5.5625rem;
+}
 
-@media (max-width: 640px) {
-  /* Utilities */
+#features-2 .pre-heading {
+  font-size: 1rem;
+}
 
-  .logo {
-    width: 110px;
-  }
+#features-2 .section-heading {
+  margin-top: 0.3125rem;
+}
 
-  .btn {
-    font-size: 0.75rem;
-    line-height: normal;
-  }
+#features-2 #features-2-list {
+  margin-top: 1.5625rem;
+}
 
-  .btn-primary {
-    margin-left: auto;
-    margin-right: auto;
-  }
+#features-2 #features-2-list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
 
-  .btn-outline {
-    padding: 0.5rem 1.5rem;
-  }
+.feature-2 {
+  display: flex;
+  gap: 0.9375rem;
+}
 
-  .post-heading {
-    font-size: 1rem;
-    line-height: normal;
-  }
+.feature-2-img {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
 
-  .section-heading {
-    font-size: 2rem;
-    line-height: normal;
-  }
-
-  /* Hero component */
-
-  #hero {
-    text-align: center;
-  }
-
-  /* Features component */
-
-  #features .container {
-    grid-template-columns: 1fr;
-    text-align: center;
-    grid-gap: 3rem;
-  }
-
-  .feature {
-    justify-content: center;
-  }
+.feature-2-text {
+  margin-top: 0.125rem;
 }

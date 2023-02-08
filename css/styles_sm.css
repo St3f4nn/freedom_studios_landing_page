@@ -1,0 +1,49 @@
+/* Utilities */
+
+.logo {
+  width: 110px;
+}
+
+.btn {
+  font-size: 0.75rem;
+  line-height: normal;
+}
+
+.btn-primary {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-outline {
+  padding: 0.5rem 1.5rem;
+}
+
+.post-heading {
+  font-size: 1rem;
+  line-height: normal;
+}
+
+.section-heading {
+  font-size: 2rem;
+  line-height: normal;
+}
+
+/* Hero component */
+
+#hero {
+  text-align: center;
+}
+
+/* Features component */
+
+#features .container,
+#features-2 .container {
+  grid-template-columns: 1fr;
+  text-align: center;
+  grid-gap: 3rem;
+}
+
+.feature,
+.feature-2 {
+  justify-content: center;
+}
